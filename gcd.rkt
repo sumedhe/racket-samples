@@ -1,5 +1,5 @@
 #lang racket
-(define (gcd a b)
+(define (gcd a b)    #this function is to find greatest common devisor
   (cond
     [(= b 0) a]
     [(> b a) (gcd b a)]
@@ -7,4 +7,4 @@
      (gcd b (modulo a b))]
     ))
 
-(gcd 15 24)
+(gcd 45 78)
