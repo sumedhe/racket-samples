@@ -9,4 +9,5 @@
   (= i num)
   )
 
-(is-prime 2)
+(is-prime 10)
+(is-prime 20)
